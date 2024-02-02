@@ -6,7 +6,7 @@ const WeatherApp = () => {
   const [city, setCity] = useState("");
   const [weatherData, setWeatherData] = useState(null);
 
-  const apiKey = "b9c5689161af52f941baf085993bb3cd";
+  const apiKey = "sua-chave-api";
   const apiUrl = "https://api.openweathermap.org/data/2.5/forecast";
 
   const getWeatherData = async () => {
